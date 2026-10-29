@@ -1,0 +1,99 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Avenir Next Cyr Medium,68,&H00F4EED4,&H00F4EED4,&H003F380D,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,90,90,720,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.14,Sub,,0,0,0,,{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)}{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}{\fscx89\fscy89\t(0,110,\fscx114\fscy114)\t(110,190,\fscx108\fscy108)}Quand{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)} t'enchaînes\N4-5 rendez-vous clients
+Dialogue: 0,0:00:00.14,0:00:00.66,Sub,,0,0,0,,Quand {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}t'enchaînes{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}\N4-5 rendez-vous clients
+Dialogue: 0,0:00:00.66,0:00:01.08,Sub,,0,0,0,,Quand t'enchaînes\N{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}4-5{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} rendez-vous clients
+Dialogue: 0,0:00:01.08,0:00:01.42,Sub,,0,0,0,,Quand t'enchaînes\N4-5 {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}rendez-vous{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} clients
+Dialogue: 0,0:00:01.42,0:00:01.58,Sub,,0,0,0,,Quand t'enchaînes\N4-5 rendez-vous {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}clients{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}
+Dialogue: 0,0:00:01.58,0:00:01.78,Sub,,0,0,0,,{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)}{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}{\fscx89\fscy89\t(0,110,\fscx114\fscy114)\t(110,190,\fscx108\fscy108)}par{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)} jour, il ne faut surtout\Npas perdre de temps
+Dialogue: 0,0:00:01.78,0:00:02.16,Sub,,0,0,0,,par {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}jour,{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} il ne faut surtout\Npas perdre de temps
+Dialogue: 0,0:00:02.16,0:00:02.20,Sub,,0,0,0,,par jour, {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}il{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} ne faut surtout\Npas perdre de temps
+Dialogue: 0,0:00:02.20,0:00:02.24,Sub,,0,0,0,,par jour, il {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}ne{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} faut surtout\Npas perdre de temps
+Dialogue: 0,0:00:02.24,0:00:02.30,Sub,,0,0,0,,par jour, il ne {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}faut{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} surtout\Npas perdre de temps
+Dialogue: 0,0:00:02.30,0:00:02.62,Sub,,0,0,0,,par jour, il ne faut {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}surtout{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}\Npas perdre de temps
+Dialogue: 0,0:00:02.62,0:00:02.94,Sub,,0,0,0,,par jour, il ne faut surtout\N{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}pas{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} perdre de temps
+Dialogue: 0,0:00:02.94,0:00:03.12,Sub,,0,0,0,,par jour, il ne faut surtout\Npas {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}perdre{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} de temps
+Dialogue: 0,0:00:03.12,0:00:03.24,Sub,,0,0,0,,par jour, il ne faut surtout\Npas perdre {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}de{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} temps
+Dialogue: 0,0:00:03.24,0:00:03.58,Sub,,0,0,0,,par jour, il ne faut surtout\Npas perdre de {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}temps{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}
+Dialogue: 0,0:00:03.58,0:00:03.76,Sub,,0,0,0,,{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)}{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}{\fscx89\fscy89\t(0,110,\fscx114\fscy114)\t(110,190,\fscx108\fscy108)}Un{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)} client qui attend\Ntrop longtemps,
+Dialogue: 0,0:00:03.76,0:00:04.02,Sub,,0,0,0,,Un {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}client{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} qui attend\Ntrop longtemps,
+Dialogue: 0,0:00:04.02,0:00:04.20,Sub,,0,0,0,,Un client {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}qui{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} attend\Ntrop longtemps,
+Dialogue: 0,0:00:04.20,0:00:04.34,Sub,,0,0,0,,Un client qui {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}attend{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}\Ntrop longtemps,
+Dialogue: 0,0:00:04.34,0:00:04.56,Sub,,0,0,0,,Un client qui attend\N{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}trop{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} longtemps,
+Dialogue: 0,0:00:04.56,0:00:05.26,Sub,,0,0,0,,Un client qui attend\Ntrop {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}longtemps,{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}
+Dialogue: 0,0:00:05.26,0:00:05.46,Sub,,0,0,0,,{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)}{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}{\fscx89\fscy89\t(0,110,\fscx114\fscy114)\t(110,190,\fscx108\fscy108)}au{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)} mieux il est énervé,
+Dialogue: 0,0:00:05.46,0:00:05.66,Sub,,0,0,0,,au {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}mieux{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} il est énervé,
+Dialogue: 0,0:00:05.66,0:00:06.12,Sub,,0,0,0,,au mieux {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}il{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} est énervé,
+Dialogue: 0,0:00:06.12,0:00:06.24,Sub,,0,0,0,,au mieux il {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}est{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} énervé,
+Dialogue: 0,0:00:06.24,0:00:06.58,Sub,,0,0,0,,au mieux il est {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}énervé,{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}
+Dialogue: 0,0:00:06.58,0:00:07.08,Sub,,0,0,0,,{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)}{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}{\fscx89\fscy89\t(0,110,\fscx114\fscy114)\t(110,190,\fscx108\fscy108)}et{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)} au pire il annule
+Dialogue: 0,0:00:07.08,0:00:07.24,Sub,,0,0,0,,et {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}au{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} pire il annule
+Dialogue: 0,0:00:07.24,0:00:07.52,Sub,,0,0,0,,et au {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}pire{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} il annule
+Dialogue: 0,0:00:07.52,0:00:07.92,Sub,,0,0,0,,et au pire {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}il{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} annule
+Dialogue: 0,0:00:07.92,0:00:08.54,Sub,,0,0,0,,et au pire il {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}annule{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}
+Dialogue: 0,0:00:08.54,0:00:08.68,Sub,,0,0,0,,{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)}{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}{\fscx89\fscy89\t(0,110,\fscx114\fscy114)\t(110,190,\fscx108\fscy108)}Mais{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)} depuis que j'ai\NBip&Go,
+Dialogue: 0,0:00:08.68,0:00:08.90,Sub,,0,0,0,,Mais {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}depuis{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} que j'ai\NBip&Go,
+Dialogue: 0,0:00:08.90,0:00:09.04,Sub,,0,0,0,,Mais depuis {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}que{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} j'ai\NBip&Go,
+Dialogue: 0,0:00:09.04,0:00:09.14,Sub,,0,0,0,,Mais depuis que {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}j'ai{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}\NBip&Go,
+Dialogue: 0,0:00:09.14,0:00:09.86,Sub,,0,0,0,,Mais depuis que j'ai\N{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}Bip&Go,{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}
+Dialogue: 0,0:00:09.86,0:00:09.98,Sub,,0,0,0,,{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)}{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}{\fscx89\fscy89\t(0,110,\fscx114\fscy114)\t(110,190,\fscx108\fscy108)}un{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)} petit badge collé\Nsur mon pare-brise,
+Dialogue: 0,0:00:09.98,0:00:10.12,Sub,,0,0,0,,un {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}petit{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} badge collé\Nsur mon pare-brise,
+Dialogue: 0,0:00:10.12,0:00:10.32,Sub,,0,0,0,,un petit {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}badge{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} collé\Nsur mon pare-brise,
+Dialogue: 0,0:00:10.32,0:00:10.68,Sub,,0,0,0,,un petit badge {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}collé{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}\Nsur mon pare-brise,
+Dialogue: 0,0:00:10.68,0:00:10.78,Sub,,0,0,0,,un petit badge collé\N{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}sur{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} mon pare-brise,
+Dialogue: 0,0:00:10.78,0:00:10.86,Sub,,0,0,0,,un petit badge collé\Nsur {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}mon{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} pare-brise,
+Dialogue: 0,0:00:10.86,0:00:11.44,Sub,,0,0,0,,un petit badge collé\Nsur mon {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}pare-brise,{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}
+Dialogue: 0,0:00:11.44,0:00:11.54,Sub,,0,0,0,,{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)}{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}{\fscx89\fscy89\t(0,110,\fscx114\fscy114)\t(110,190,\fscx108\fscy108)}je{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)} passe les péages\Nsans m'arrêter
+Dialogue: 0,0:00:11.54,0:00:11.70,Sub,,0,0,0,,je {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}passe{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} les péages\Nsans m'arrêter
+Dialogue: 0,0:00:11.70,0:00:11.88,Sub,,0,0,0,,je passe {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}les{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} péages\Nsans m'arrêter
+Dialogue: 0,0:00:11.88,0:00:12.20,Sub,,0,0,0,,je passe les {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}péages{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}\Nsans m'arrêter
+Dialogue: 0,0:00:12.20,0:00:12.38,Sub,,0,0,0,,je passe les péages\N{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}sans{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} m'arrêter
+Dialogue: 0,0:00:12.38,0:00:13.46,Sub,,0,0,0,,je passe les péages\Nsans {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}m'arrêter{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}
+Dialogue: 0,0:00:13.46,0:00:13.82,Sub,,0,0,0,,{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)}{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}{\fscx89\fscy89\t(0,110,\fscx114\fscy114)\t(110,190,\fscx108\fscy108)}Je{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)} ralentis,\Nla barrière s'ouvre,
+Dialogue: 0,0:00:13.82,0:00:14.38,Sub,,0,0,0,,Je {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}ralentis,{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}\Nla barrière s'ouvre,
+Dialogue: 0,0:00:14.38,0:00:14.50,Sub,,0,0,0,,Je ralentis,\N{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}la{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} barrière s'ouvre,
+Dialogue: 0,0:00:14.50,0:00:14.70,Sub,,0,0,0,,Je ralentis,\Nla {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}barrière{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} s'ouvre,
+Dialogue: 0,0:00:14.70,0:00:15.30,Sub,,0,0,0,,Je ralentis,\Nla barrière {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}s'ouvre,{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}
+Dialogue: 0,0:00:15.30,0:00:15.38,Sub,,0,0,0,,{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)}{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}{\fscx89\fscy89\t(0,110,\fscx114\fscy114)\t(110,190,\fscx108\fscy108)}je{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)} repars direct
+Dialogue: 0,0:00:15.38,0:00:15.62,Sub,,0,0,0,,je {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}repars{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} direct
+Dialogue: 0,0:00:15.62,0:00:16.36,Sub,,0,0,0,,je repars {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}direct{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}
+Dialogue: 0,0:00:16.36,0:00:16.52,Sub,,0,0,0,,{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)}{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}{\fscx89\fscy89\t(0,110,\fscx114\fscy114)\t(110,190,\fscx108\fscy108)}Sur{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)} une journée avec\Nplusieurs trajets,
+Dialogue: 0,0:00:16.52,0:00:16.62,Sub,,0,0,0,,Sur {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}une{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} journée avec\Nplusieurs trajets,
+Dialogue: 0,0:00:16.62,0:00:16.78,Sub,,0,0,0,,Sur une {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}journée{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} avec\Nplusieurs trajets,
+Dialogue: 0,0:00:16.78,0:00:16.96,Sub,,0,0,0,,Sur une journée {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}avec{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}\Nplusieurs trajets,
+Dialogue: 0,0:00:16.96,0:00:17.28,Sub,,0,0,0,,Sur une journée avec\N{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}plusieurs{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} trajets,
+Dialogue: 0,0:00:17.28,0:00:17.80,Sub,,0,0,0,,Sur une journée avec\Nplusieurs {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}trajets,{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}
+Dialogue: 0,0:00:17.80,0:00:17.88,Sub,,0,0,0,,{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)}{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}{\fscx89\fscy89\t(0,110,\fscx114\fscy114)\t(110,190,\fscx108\fscy108)}ça{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)} change vraiment\Nla donne
+Dialogue: 0,0:00:17.88,0:00:18.04,Sub,,0,0,0,,ça {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}change{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} vraiment\Nla donne
+Dialogue: 0,0:00:18.04,0:00:18.36,Sub,,0,0,0,,ça change {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}vraiment{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}\Nla donne
+Dialogue: 0,0:00:18.36,0:00:18.52,Sub,,0,0,0,,ça change vraiment\N{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}la{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} donne
+Dialogue: 0,0:00:18.52,0:00:19.16,Sub,,0,0,0,,ça change vraiment\Nla {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}donne{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}
+Dialogue: 0,0:00:19.16,0:00:19.46,Sub,,0,0,0,,{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)}{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}{\fscx89\fscy89\t(0,110,\fscx114\fscy114)\t(110,190,\fscx108\fscy108)}Grâce{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)} à ce badge,
+Dialogue: 0,0:00:19.46,0:00:19.58,Sub,,0,0,0,,Grâce {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}à{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} ce badge,
+Dialogue: 0,0:00:19.58,0:00:19.66,Sub,,0,0,0,,Grâce à {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}ce{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} badge,
+Dialogue: 0,0:00:19.66,0:00:20.18,Sub,,0,0,0,,Grâce à ce {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}badge,{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}
+Dialogue: 0,0:00:20.18,0:00:20.44,Sub,,0,0,0,,{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)}{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}{\fscx89\fscy89\t(0,110,\fscx114\fscy114)\t(110,190,\fscx108\fscy108)}j'enchaîne{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)} plus\Nde rendez-vous
+Dialogue: 0,0:00:20.44,0:00:20.64,Sub,,0,0,0,,j'enchaîne {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}plus{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}\Nde rendez-vous
+Dialogue: 0,0:00:20.64,0:00:20.80,Sub,,0,0,0,,j'enchaîne plus\N{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}de{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} rendez-vous
+Dialogue: 0,0:00:20.80,0:00:21.18,Sub,,0,0,0,,j'enchaîne plus\Nde {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}rendez-vous{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}
+Dialogue: 0,0:00:21.18,0:00:21.58,Sub,,0,0,0,,{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)}{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}{\fscx89\fscy89\t(0,110,\fscx114\fscy114)\t(110,190,\fscx108\fscy108)}et{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}{\fscx82\fscy82\t(0,110,\fscx106\fscy106)\t(110,190,\fscx100\fscy100)} il me fait gagner\Ndu temps et de l'argent
+Dialogue: 0,0:00:21.58,0:00:21.66,Sub,,0,0,0,,et {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}il{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} me fait gagner\Ndu temps et de l'argent
+Dialogue: 0,0:00:21.66,0:00:21.76,Sub,,0,0,0,,et il {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}me{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} fait gagner\Ndu temps et de l'argent
+Dialogue: 0,0:00:21.76,0:00:21.86,Sub,,0,0,0,,et il me {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}fait{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} gagner\Ndu temps et de l'argent
+Dialogue: 0,0:00:21.86,0:00:22.04,Sub,,0,0,0,,et il me fait {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}gagner{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}\Ndu temps et de l'argent
+Dialogue: 0,0:00:22.04,0:00:22.18,Sub,,0,0,0,,et il me fait gagner\N{\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}du{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} temps et de l'argent
+Dialogue: 0,0:00:22.18,0:00:22.36,Sub,,0,0,0,,et il me fait gagner\Ndu {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}temps{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} et de l'argent
+Dialogue: 0,0:00:22.36,0:00:22.70,Sub,,0,0,0,,et il me fait gagner\Ndu temps {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}et{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} de l'argent
+Dialogue: 0,0:00:22.70,0:00:22.80,Sub,,0,0,0,,et il me fait gagner\Ndu temps et {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}de{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100} l'argent
+Dialogue: 0,0:00:22.80,0:00:23.62,Sub,,0,0,0,,et il me fait gagner\Ndu temps et de {\1c&H3F380D&\3c&HF4EED4&\bord13\fscx108\fscy108}l'argent{\1c&HF4EED4&\3c&H3F380D&\bord5\fscx100\fscy100}
